@@ -1,0 +1,88 @@
+	<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="sticky-footer-navbar.css">
+<link rel="stylesheet" href="ie10-viewport-bug-workaround.css">
+<style>
+//body{
+// width:1060px;
+// margin:50px auto;
+//}
+path:hover { opacity:0.9; }
+rect:hover { fill:blue; }
+.axis { font: 10px sans-serif; }
+.legend tr{ border-bottom:1px solid grey; }
+.legend tr:first-child{ border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.x.axis path { display: none; }
+.legend{
+margin-bottom:76px;
+display:inline-block;
+border-collapse: collapse;
+border-spacing: 0px;
+}
+.legend td{
+padding:4px 5px;
+vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+align:right;
+width:50px;
+}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">Money on time</a>
+</div>
+</div>
+</nav>
+
+
+<div class="container">
+<div class="page-header">
+<h1>30% EA, Amortización para Pago Mensual: $0.03 sobre 60 meses</h1>
+</div>
+<div id='dashboard'>
+</div>
+</div>
+
+
+<footer class="footer">
+<div class="container">
+<p class="text-muted">Bash 2017</p>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="ie-emulation-modes-warning.js"></script>
+<script src="ie10-viewport-bug-workaround.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="app.js"></script>
+<script src="data.js"></script>
+</body>
